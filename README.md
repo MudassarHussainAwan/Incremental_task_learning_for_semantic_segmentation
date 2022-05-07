@@ -29,13 +29,11 @@ os.listdir(root_dir)
 <img src='images/root_dir.png' width = 700>   
 For training use:  
 ```bash
-
 !python train.py
 
 ```
 To run tests, run the following command:   
 ```bash
-
 !python test.py
 
 ```
