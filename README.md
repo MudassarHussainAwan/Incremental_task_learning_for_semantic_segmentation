@@ -25,6 +25,7 @@ os.chdir(root_dir)
 os.listdir(root_dir)
 
 ```
+![](images/root_dir.png)
 For training use:
 ```bash
 !python train.py
