@@ -13,7 +13,6 @@ Use following command for gpu allocation:
 ```
 To mount the google drive on colab:
 ```bash
-# Mount google drive
 from google.colab import drive
 drive.mount('/content/root_drive', force_remount=True)
 
