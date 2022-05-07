@@ -5,7 +5,7 @@ The project is an extension based on the paper : Modeling the Background for Inc
 ![](images/architecture.png)
 
 ## Notebook commands
-In colab environment go to runtime -> change runtime type -> GPU
+In colab environment go to runtime -> change runtime type -> GPU.   
 Use following command for gpu allocation:
 ```bash
 
