@@ -44,6 +44,7 @@ from torch.utils.tensorboard import SummaryWriter
 %tensorboard --logdir=runs
 
 ```
+<img src='images/root_dir.png' width = 700>
 
 
 ## Acknowledgements
