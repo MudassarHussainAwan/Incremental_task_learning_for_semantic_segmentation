@@ -25,7 +25,7 @@ os.chdir(root_dir)
 os.listdir(root_dir)
 
 ```
-<img src='images/root_dir.png'>
+<img src='images/root_dir.png' width = 100>
 For training use:
 ```bash
 !python train.py
