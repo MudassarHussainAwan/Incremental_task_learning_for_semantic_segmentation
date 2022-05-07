@@ -25,17 +25,14 @@ os.chdir(root_dir)
 os.listdir(root_dir)
 
 ```
-<img src='images/root_dir.png' width = 700>
-For training use:
+<img src='images/root_dir.png' width = 700>   
+For training use:  
 ```bash
 !python train.py
-
 ```
-To run tests, run the following command
-
+To run tests, run the following command:   
 ```bash
 !python test.py
-
 ```
 For vissualizaing tensorboard: 
 ```bash
