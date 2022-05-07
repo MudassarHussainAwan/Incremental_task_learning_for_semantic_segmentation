@@ -8,6 +8,7 @@ The project is an extension based on the paper : Modeling the Background for Inc
 In colab environment go to runtime -> change runtime type -> GPU
 Use following command for gpu allocation:
 ```bash
+
 ! nvidia-smi 
 
 ```
@@ -28,14 +29,19 @@ os.listdir(root_dir)
 <img src='images/root_dir.png' width = 700>   
 For training use:  
 ```bash
+
 !python train.py
+
 ```
 To run tests, run the following command:   
 ```bash
+
 !python test.py
+
 ```
 For vissualizaing tensorboard: 
 ```bash
+
 from torch.utils.tensorboard import SummaryWriter
 %load_ext tensorboard
 %tensorboard --logdir=runs
